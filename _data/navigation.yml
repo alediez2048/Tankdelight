@@ -3,7 +3,7 @@
 
 - text: Home
   url: /
-- text: About
+- text: Company
   url: "#"
   sub:
     - text: "Who We Are"
