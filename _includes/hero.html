@@ -1,6 +1,6 @@
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark">
 	<div class="bg-section" >
-		<img src="assets/images/page-title/title-13.jpg" alt="Background"/>
+		<img src="/assets/images/background/{{include.img}}" alt="Background"/>
 	</div>
 	<div class="container">
 		<div class="row">
@@ -8,16 +8,16 @@
 				<div class="title title-2 text-center">
 					<div class="title--content">
 						<div class="title--heading">
-							<h1>{{ include.title }}</h1>
+							<h1>{{ include.title  }}</h1>
 						</div>
 						<div class="title--desc">
-							<p>League is a creative multi-concept WordPress theme perfectly designed to make awesome website for any business. </p>
+							<p>Always On. </p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
 					<ol class="breadcrumb">
-						<li><a href="index-2.html">Home</a></li>
-						<li class="active">about us</li>
+						<li><a href="{{"/" | relative_url }}">Home</a></li>
+						<li class="active">{{ page.title }}</li>
 					</ol>
 				</div><!-- .title end -->
 			</div><!-- .col-md-12 end -->

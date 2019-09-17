@@ -15,25 +15,25 @@
     - text: "Product Line"
       url: "/product-line-description"
 - text: "Simple Life"
-  url: "/simple-life"
+  url: "#"
   sub:
     - text: "SL-3KW"
-      url: "/sl-3kw"
-    - text: "SL-5KW"
-      url:  "sl-5kw"
+      url: "/simple-life/sl-3kw"
+    # - text: "SL-5KW"
+    #   url:  "/simple-life/sl-5kw"
 - text: Tank The Life
-  url: /tank-the-life
+  url: #
   sub:
-      - text: "PI-3KW"
-        url: "/pi-3kw"
-      - text: "PI-5KW"
-        url: "/pi-5kw"
-      - text: "PI-9KW"
-        url: "/pi-9kw"
-      - text: "PI-12KW"
-        url: "/pi-12kw"
-      - text: "PI-15KW"
-        url: "/pi-15kw"
+      # - text: "PI-3KW"
+      #   url: "/pi-3kw"
+      # - text: "PI-5KW"
+      #   url: "/pi-5kw"
+      # - text: "PI-9KW"
+      #   url: "/pi-9kw"
+      # - text: "PI-12KW"
+      #   url: "/pi-12kw"
+      # - text: "PI-15KW"
+      #   url: "/pi-15kw"
 - text: warranty
   url: /warranty
 - text: Blog
